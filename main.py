@@ -1,5 +1,4 @@
 import logging
-import schedule
 import time
 from time import sleep
 from pybit import exceptions
@@ -100,9 +99,6 @@ def token_splash():
 
 
 def main():
-    # while True:
-    #     schedule.run_pending()
-    #     time.sleep(1)
     token_splash()
 
 
